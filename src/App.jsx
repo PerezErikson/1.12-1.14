@@ -31,12 +31,12 @@ const App = () => {
   return (
     <div>
       <p>{anecdotes[selected]}</p>
-      <p>has {votes[selected]} votes</p>
+      <p>Tiene {votes[selected]} votos</p>
       <button onClick={handleVote}>vote</button>
       <button onClick={handleNextAnecdote}>siguiente anécdota</button>
       <h2>Anécdota con más votos</h2>
       <p>{anecdotes[mostVotedAnecdoteIndex]}</p>
-      <p>Tiene {votes[mostVotedAnecdoteIndex]} votes</p>
+      <p>Tiene {votes[mostVotedAnecdoteIndex]} votos</p>
     </div>
   )
 }
